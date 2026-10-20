@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.env*.local
+.vercel
+
+# Phase 1 source material kept locally only (not part of the site):
+# original full-size uploads and audit screenshots.
+docs/source-audit/original-assets/
+docs/source-audit/screenshots/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log

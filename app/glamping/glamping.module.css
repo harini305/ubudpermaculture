@@ -1,0 +1,271 @@
+/* key facts band directly under the hero */
+
+.facts {
+  background: var(--green);
+  color: #fff;
+}
+
+.facts ul {
+  list-style: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.facts li {
+  margin: 0;
+  padding: 18px 12px 18px 0;
+  display: grid;
+  gap: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.facts strong {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.5rem);
+  line-height: 1.2;
+}
+
+.facts span {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+@media (min-width: 900px) {
+  .facts ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .facts li {
+    border-bottom: 0;
+    padding: 24px 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.22);
+  }
+  .facts li:first-child {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+/* intro */
+
+.intro {
+  display: grid;
+  gap: 16px 64px;
+  align-items: start;
+}
+
+.statement {
+  font-size: clamp(1.625rem, 1.3rem + 1.4vw, 2.5rem);
+  line-height: 1.2;
+}
+
+@media (min-width: 900px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+/* your tent */
+
+.tent {
+  display: grid;
+  gap: 28px 64px;
+  align-items: center;
+}
+
+.tentPhotos {
+  position: relative;
+  padding-right: 22%;
+  padding-bottom: 12%;
+}
+
+.tp1 {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.tp2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border: 6px solid var(--surface);
+}
+
+.tp1 img,
+.tp2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tentText h2 {
+  margin-bottom: 1rem;
+}
+
+.ticks {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 2px;
+}
+
+.ticks li {
+  position: relative;
+  margin: 0;
+  padding: 10px 0 10px 30px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ticks li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1.05em;
+  width: 11px;
+  height: 6px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 900px) {
+  .tent {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .tentPhotos {
+    max-width: 560px;
+  }
+}
+
+/* three tiles */
+
+.tiles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px 24px;
+}
+
+.tiles li {
+  margin: 0;
+}
+
+.tilePhoto {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.tilePhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tiles h3 {
+  margin-bottom: 6px;
+}
+
+.tiles p {
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 760px) {
+  .tiles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* mission band */
+
+.mission {
+  background: var(--green-deep);
+  color: var(--on-dark-2);
+  padding-block: var(--section);
+}
+
+.mission h2 {
+  color: var(--on-dark);
+}
+
+.missionGrid {
+  display: grid;
+  gap: 16px 64px;
+}
+
+.missionLead {
+  font-family: var(--font-serif);
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  line-height: 1.5;
+  color: var(--on-dark);
+}
+
+.missionLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 32px;
+  margin-top: 8px;
+}
+
+.mission :global(.text-link) {
+  color: var(--on-dark);
+}
+
+@media (min-width: 900px) {
+  .missionGrid {
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  }
+}
+
+/* host */
+
+.host {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+  max-width: 54rem;
+}
+
+.hostPhoto {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hostPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hostTitle {
+  font-size: 1.125rem;
+  margin-bottom: 6px;
+}
+
+.hostQuote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.0625rem, 1rem + 0.4vw, 1.3125rem);
+  line-height: 1.5;
+  color: var(--green-ink);
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .host {
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 32px;
+  }
+  .hostPhoto {
+    width: 140px;
+    height: 140px;
+  }
+}

@@ -1,0 +1,521 @@
+{
+ "fonts": {
+  "/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 300 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 10,
+    "Georgia, serif | SPAN": 23,
+    "Georgia, serif | H1": 1,
+    "Georgia, serif | EM": 2,
+    "Georgia, serif | P": 9,
+    "Georgia, serif | LI": 8,
+    "Georgia, serif | DIV": 1,
+    "\"Open Sans\" | P": 16,
+    "\"Open Sans\" | SPAN": 32,
+    "Georgia, serif | H3": 5,
+    "Georgia, serif | H4": 1,
+    "Georgia, serif | H2": 2
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 8,
+    "bg rgb(255, 255, 255)": 4,
+    "text rgb(153, 153, 153)": 6,
+    "bg rgb(0, 0, 0)": 1,
+    "text rgb(255, 255, 255)": 26,
+    "bg rgb(8, 107, 20)": 3,
+    "text rgb(68, 68, 68)": 6,
+    "text rgb(103, 103, 103)": 64,
+    "bg rgba(0, 0, 0, 0.12)": 1,
+    "bg rgba(0, 0, 0, 0.1)": 3,
+    "bg rgb(10, 10, 10)": 3,
+    "bg rgb(58, 127, 52)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgba(255, 255, 255, 0)": 2,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "/about/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 300 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 4,
+    "Georgia, serif | SPAN": 17,
+    "Georgia, serif | H5": 1,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | P": 10,
+    "\"Open Sans\" | P": 2,
+    "\"Open Sans\" | SPAN": 4
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 4,
+    "bg rgb(255, 255, 255)": 4,
+    "text rgb(255, 255, 255)": 19,
+    "bg rgba(255, 255, 255, 0.3)": 1,
+    "text rgb(68, 68, 68)": 2,
+    "text rgb(103, 103, 103)": 15,
+    "bg rgba(0, 0, 0, 0.4)": 2,
+    "bg rgba(255, 255, 255, 0)": 6,
+    "bg rgb(8, 107, 20)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/glamping/": {
+   "loaded": [
+    "icomoon 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 3,
+    "Georgia, serif | SPAN": 17,
+    "Georgia, serif | H1": 1,
+    "Georgia, serif | P": 24,
+    "Georgia, serif | H4": 1,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | H3": 4
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 3,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "bg rgb(0, 0, 0)": 1,
+    "text rgb(255, 255, 255)": 23,
+    "text rgb(103, 103, 103)": 20,
+    "bg rgba(0, 0, 0, 0.1)": 3,
+    "bg rgb(10, 10, 10)": 3,
+    "bg rgb(58, 127, 52)": 1,
+    "bg rgb(8, 107, 20)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgba(255, 255, 255, 0)": 2,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/farmer-market/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 5,
+    "Georgia, serif | SPAN": 27,
+    "Georgia, serif | H5": 1,
+    "Georgia, serif | H2": 3,
+    "Georgia, serif | H1": 1,
+    "Georgia, serif | P": 20,
+    "Georgia, serif | EM": 2,
+    "Georgia, serif | LI": 12,
+    "Georgia, serif | STRONG": 1
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 5,
+    "bg rgb(255, 255, 255)": 4,
+    "text rgb(255, 255, 255)": 15,
+    "bg rgba(255, 255, 255, 0.3)": 1,
+    "text rgb(68, 68, 68)": 17,
+    "text rgb(103, 103, 103)": 35,
+    "bg rgb(8, 107, 20)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgba(255, 255, 255, 0)": 2,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/biodynamic-retreat/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 300 normal",
+    "Open Sans 400 normal",
+    "Abril Fatface 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 15,
+    "Georgia, serif | SPAN": 21,
+    "Georgia, serif | H1": 3,
+    "Georgia, serif | P": 61,
+    "Georgia, serif | STRONG": 26,
+    "Georgia, serif | EM": 5,
+    "\"Open Sans\" | P": 10,
+    "\"Open Sans\" | SPAN": 14,
+    "\"Abril Fatface\" | H2": 1,
+    "Georgia, serif | TD": 28,
+    "Georgia, serif | H4": 1,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | H3": 4
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 15,
+    "bg rgb(255, 255, 255)": 6,
+    "text rgb(153, 153, 153)": 6,
+    "bg rgb(0, 0, 0)": 1,
+    "text rgb(255, 255, 255)": 23,
+    "text rgb(68, 68, 68)": 8,
+    "text rgb(103, 103, 103)": 139,
+    "bg rgba(0, 0, 0, 0.12)": 6,
+    "border rgb(236, 236, 236)": 1,
+    "bg rgb(252, 252, 252)": 6,
+    "bg rgba(0, 0, 0, 0.1)": 3,
+    "bg rgb(10, 10, 10)": 3,
+    "bg rgb(58, 127, 52)": 1,
+    "bg rgb(8, 107, 20)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgba(255, 255, 255, 0)": 2,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/activities/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 2,
+    "Georgia, serif | SPAN": 26,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | P": 1
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 2,
+    "bg rgb(255, 255, 255)": 4,
+    "text rgb(255, 255, 255)": 14,
+    "bg rgba(255, 255, 255, 0.3)": 1,
+    "text rgb(68, 68, 68)": 15,
+    "bg rgb(8, 107, 20)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgba(255, 255, 255, 0)": 2,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/333-2/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 24,
+    "Georgia, serif | SPAN": 58,
+    "Georgia, serif | H1": 1,
+    "Georgia, serif | DIV": 21,
+    "Georgia, serif | H2": 1,
+    "Georgia, serif | P": 1
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 23,
+    "bg rgb(255, 255, 255)": 4,
+    "text rgb(255, 255, 255)": 50,
+    "bg rgba(255, 255, 255, 0)": 24,
+    "bg rgb(8, 107, 20)": 22,
+    "text rgb(0, 0, 0)": 33,
+    "border rgba(0, 0, 0, 0.15)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  },
+  "/farm-tour/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal",
+    "Abril Fatface 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 4,
+    "Georgia, serif | SPAN": 15,
+    "Georgia, serif | H1": 1,
+    "\"Abril Fatface\" | H2": 1,
+    "Georgia, serif | H3": 7,
+    "Georgia, serif | H2": 1,
+    "Georgia, serif | P": 1
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 2,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "text rgb(103, 103, 103)": 4,
+    "bg rgba(0, 0, 0, 0.05)": 1,
+    "text rgb(68, 68, 68)": 8,
+    "text rgb(255, 255, 255)": 10,
+    "bg rgba(0, 0, 0, 0.12)": 1,
+    "bg rgb(8, 107, 20)": 7,
+    "bg rgba(255, 255, 255, 0)": 7,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  },
+  "/tour/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal",
+    "Abril Fatface 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 4,
+    "Georgia, serif | SPAN": 24,
+    "Georgia, serif | H1": 1,
+    "\"Abril Fatface\" | H2": 1,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | P": 9,
+    "Georgia, serif | H3": 7
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 2,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "text rgb(103, 103, 103)": 21,
+    "bg rgba(0, 0, 0, 0.05)": 1,
+    "text rgb(68, 68, 68)": 9,
+    "bg rgb(32, 89, 40)": 1,
+    "text rgb(255, 255, 255)": 10,
+    "bg rgb(242, 242, 242)": 3,
+    "bg rgb(8, 107, 20)": 7,
+    "bg rgba(255, 255, 255, 0)": 7,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  },
+  "/balinese-cooking-class/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal",
+    "Abril Fatface 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 5,
+    "Georgia, serif | SPAN": 16,
+    "Georgia, serif | H1": 1,
+    "\"Abril Fatface\" | H2": 1,
+    "Georgia, serif | H3": 7,
+    "Georgia, serif | P": 10,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | LI": 2,
+    "Georgia, serif | EM": 5
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 3,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "text rgb(103, 103, 103)": 20,
+    "bg rgba(0, 0, 0, 0.05)": 1,
+    "text rgb(68, 68, 68)": 9,
+    "bg rgb(32, 89, 40)": 1,
+    "text rgb(255, 255, 255)": 11,
+    "bg rgb(242, 242, 242)": 4,
+    "bg rgb(8, 107, 20)": 8,
+    "bg rgba(255, 255, 255, 0)": 7,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  },
+  "/introduction-to-permaculture/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal",
+    "Abril Fatface 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 7,
+    "Georgia, serif | SPAN": 19,
+    "Georgia, serif | H1": 1,
+    "\"Abril Fatface\" | H2": 1,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | P": 20,
+    "Georgia, serif | H3": 9,
+    "Georgia, serif | B": 1,
+    "Georgia, serif | LI": 4
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 5,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "text rgb(103, 103, 103)": 29,
+    "bg rgba(0, 0, 0, 0.05)": 1,
+    "text rgb(68, 68, 68)": 14,
+    "bg rgb(32, 89, 40)": 1,
+    "text rgb(255, 255, 255)": 10,
+    "bg rgb(242, 242, 242)": 4,
+    "bg rgb(8, 107, 20)": 7,
+    "bg rgba(255, 255, 255, 0)": 7,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  },
+  "/treasure-hunt/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal",
+    "Open Sans 600 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 6,
+    "Georgia, serif | SPAN": 21,
+    "Georgia, serif | H2": 2,
+    "Georgia, serif | H1": 3,
+    "Georgia, serif | LI": 8,
+    "Georgia, serif | LABEL": 2,
+    "\"Open Sans\" | BUTTON": 1,
+    "Georgia, serif | P": 11
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 5,
+    "bg rgb(255, 255, 255)": 6,
+    "text rgb(255, 255, 255)": 15,
+    "bg rgba(255, 255, 255, 0.3)": 1,
+    "text rgb(68, 68, 68)": 10,
+    "text rgb(103, 103, 103)": 20,
+    "bg rgb(8, 107, 20)": 3,
+    "text rgb(192, 38, 43)": 2,
+    "bg rgba(0, 0, 0, 0.04)": 2,
+    "border rgb(225, 225, 225)": 2,
+    "text rgb(71, 91, 178)": 2,
+    "bg rgb(71, 91, 178)": 1,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(8, 107, 20)"
+   ]
+  },
+  "/the-essence-of-permaculture-sustainable-living-in-the-heart-of-ubud/": {
+   "loaded": [
+    "icomoon 400 normal",
+    "Open Sans 400 normal"
+   ],
+   "usage": {
+    "Georgia, serif | A": 4,
+    "Georgia, serif | SPAN": 15,
+    "Georgia, serif | H1": 1,
+    "Georgia, serif | P": 14,
+    "Georgia, serif | EM": 15,
+    "Georgia, serif | STRONG": 6,
+    "Georgia, serif | H2": 1
+   },
+   "colors": {
+    "text rgb(8, 107, 20)": 11,
+    "bg rgb(255, 255, 255)": 5,
+    "text rgb(153, 153, 153)": 6,
+    "text rgb(103, 103, 103)": 25,
+    "bg rgba(0, 0, 0, 0.05)": 1,
+    "text rgb(68, 68, 68)": 7,
+    "bg rgba(255, 255, 255, 0)": 7,
+    "bg rgb(8, 107, 20)": 5,
+    "text rgb(255, 255, 255)": 7,
+    "bg rgb(50, 81, 60)": 1,
+    "bg rgb(37, 211, 102)": 1
+   },
+   "linkColor": [
+    "rgb(103, 103, 103)"
+   ]
+  }
+ },
+ "home": {
+  "home@mobile": {
+   "videoReady": 2,
+   "videoErr": null,
+   "sw": 390,
+   "iw": 390,
+   "h": 7525,
+   "sbIframe": [
+    "https://ubudpermaculture.simplybook.asia/v2/?widget-type=iframe&theme=default&theme=default&timeline=modern&datepicker=top_calendar&host_url=https%3A%2F%2Fubudpermaculture.com%2F"
+   ],
+   "h1": [
+    "Georgia, serif",
+    "27.3px",
+    "300",
+    "40.3px",
+    "rgb(255, 255, 255)"
+   ],
+   "status": 200
+  },
+  "about@mobile": {
+   "videoReady": null,
+   "videoErr": null,
+   "sw": 390,
+   "iw": 390,
+   "h": 4077,
+   "sbIframe": [],
+   "h1": "NO H1",
+   "status": 200
+  },
+  "home@desktop": {
+   "videoReady": 4,
+   "videoErr": null,
+   "sw": 1440,
+   "iw": 1440,
+   "h": 5404,
+   "sbIframe": [
+    "https://ubudpermaculture.simplybook.asia/v2/?widget-type=iframe&theme=default&theme=default&timeline=modern&datepicker=top_calendar&_ga=GA1.1.1352859366.1792415983&host_url=https%3A%2F%2Fubudpermaculture.com%2F"
+   ],
+   "h1": [
+    "Georgia, serif",
+    "42px",
+    "300",
+    "62px",
+    "rgb(255, 255, 255)"
+   ],
+   "status": 200
+  },
+  "home@tablet": {
+   "videoReady": 4,
+   "videoErr": null,
+   "sw": 768,
+   "iw": 768,
+   "h": 8307,
+   "sbIframe": [
+    "https://ubudpermaculture.simplybook.asia/v2/?widget-type=iframe&theme=default&theme=default&timeline=modern&datepicker=top_calendar&host_url=https%3A%2F%2Fubudpermaculture.com%2F"
+   ],
+   "h1": [
+    "Georgia, serif",
+    "29.4px",
+    "300",
+    "43.4px",
+    "rgb(255, 255, 255)"
+   ],
+   "status": 200
+  }
+ },
+ "simplybook": {
+  "book": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nCooking & Food\n\nCooking & Food Activities\n\nSelect\nFarming\n\nFarming Activities\n\nSelect\nCultural\n\nCultural Activities\n\nSelect\nChildren\n\nChildren Friendly Activities\n\nSelect\nWellness\n\nWellness Activities\n\nSelect\nFun\n\nFun Activities\n\nSelect\nEvening\n\nEvening Activities\n\nSelect\nHome Reviews My Bookings\n© 2013-2026 SimplyBook.me\nChoose an appointment category",
+  "category1": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nFarming\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nFarm Tour & Feed the Animals - 1hr - Rp150,000 per person\n\nJoin our fast and friendly 1 hour Farm Tour.\n\nWe are just 5km north of Ubud on the right hand side as you are driving to Tegallalang Rice Paddies !\n\nMeet our Furry Friends - get to know Susu & Taksu our family cows, Happy & Lily the Farm cats, Adam & Eve our ducks and our assorted family of chickens, turtles and fish\nRice Paddy & Jungle walk - guided walk through our local rice paddies & jungle - lots of Insta opportunities !\n\n\n\nTour includes ;\n\nRefreshing Welcome: Organic Fruit Juice\nMeet our animals and help us feed them !\nRice Paddy & Jungle walk\nLearn about Balinese culture and legends\nDiscover the differences between chemical and organic farming\n\n\n\n\nAvailable for groups of 2 - 10 people. Please book 1 day ahead if possible !\n\nSneak Preview here :  \n\nhttps://www.instagram.com/ubud.permaculture/reel/DRmP_3yDxvk/\n\n\n\n\n\n\n\nRead more\n1 hr.\nRp150000\n2\nSelect\n\"Hands On\" Organic Farming experience\n\nIdeal for those planning  an organic garden or farm back home !\n\nJoin us for a Hands-On Garden Experience. Learn the secrets of organic growing using Permaculture techniques.\n\nGet your hands in the earth and discover the rhythm of local farm life!\n\nActivities may include: (depending on season!) :\n\nPlanting or harvesting\nThe secrets of good composting recipes ! \nOrganic Fertilisers and Pesticides\nPicking or pruning ",
+  "category2": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nCultural\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nSUNSET BBQ & MARSHMALLOWS ! - 2hrs - Rp300,000 per person (Kids Half Price !)\n\nSunset BBQ (organic chicken, vegetarian and vegan options available !). Perfect for kids and adults alike ! \n\nWatch the sunset over the jungle and listen as the night creatures come to life ! Listen to ancient Balinese wisdom (and some ghost stories !) while sitting around our firepit hidden in a jungle clearing !\n\nRoast your own marshmallows !\n\nWhat's included :\n\nRefreshing Welcome: Organic Fruit Juice\nLearn how to make a traditional Balinese bamboo BBQ\nListen to ancient Balinese wisdom (and some ghost stories !)\nEnjoy a delicious hot BBQ meal\nRoast your own marshmallows !\n\n\n\n\nIncl: Organic chicken/Vegetarian BBQ on open firepit, side salad & soft drink PLUS marshmallows !\n\nAvailable for groups of 2 - 20 people. Please book 1 day ahead if possible !\n\nLet us know if you would like to add any of the following :\n\nDJ\n\nFireshow\n\nMime Artist\n\nAcoustic band\n\n\n\nRead more\n2 hr.\nRp300000\n2\nSelect\nBalinese Traditional Dance (with Chix) - 2.5hrs - Rp450,000 per person\n\nBalinese Traditional Dance (with Chix) – 2.5 hrs – Rp450,000 per person.\n\nImmerse yourself  in Balinese culture with Chix.\n\ngrounding welcome, sarong etiquette and symbolism, hands-on dressing, an introduction to sacred and non‑sacred masks, and foundational dance movements (agem, hands, footwork, seledet) culminating in a short ",
+  "category3": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nChildren\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nFarm Tour & Feed the Animals - 1hr - Rp150,000 per person\n\nJoin our fast and friendly 1 hour Farm Tour.\n\nWe are just 5km north of Ubud on the right hand side as you are driving to Tegallalang Rice Paddies !\n\nMeet our Furry Friends - get to know Susu & Taksu our family cows, Happy & Lily the Farm cats, Adam & Eve our ducks and our assorted family of chickens, turtles and fish\nRice Paddy & Jungle walk - guided walk through our local rice paddies & jungle - lots of Insta opportunities !\n\n\n\nTour includes ;\n\nRefreshing Welcome: Organic Fruit Juice\nMeet our animals and help us feed them !\nRice Paddy & Jungle walk\nLearn about Balinese culture and legends\nDiscover the differences between chemical and organic farming\n\n\n\n\nAvailable for groups of 2 - 10 people. Please book 1 day ahead if possible !\n\nSneak Preview here :  \n\nhttps://www.instagram.com/ubud.permaculture/reel/DRmP_3yDxvk/\n\n\n\n\n\n\n\nRead more\n1 hr.\nRp150000\n2\nSelect\nSUNSET BBQ & MARSHMALLOWS ! - 2hrs - Rp300,000 per person (Kids Half Price !)\n\nSunset BBQ (organic chicken, vegetarian and vegan options available !). Perfect for kids and adults alike ! \n\nWatch the sunset over the jungle and listen as the night creatures come to life ! Listen to ancient Balinese wisdom (and some ghost stories !) while sitting around our firepit hidden in a jungle clearing !\n\nRoast your own marshmallows !\n\nWhat's included :\n\nRefreshing",
+  "category4": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nWellness\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nMassage Service - Rp350,000\n\nEnjoy a 1 hour Massage treatment in the privacy of the Villa. We can provide a wide range of qualified masseurs offering a range of techniques including Balinese, Swedish, Deep Tissue, Aromatherapy, Shiatsu, Thai and Reflexology.\n\nMinimum 1 guest, please book one day ahead.\n\nRead more\n1 hr.\nRp350000\n1\nSelect\nYoga Workshop - Rp350,000 per person\n\nWake early and practice Yoga as the birds are waking and the sun is rising or anytime - the bale is available all day until 6pm. Yoga mats and blocks provided\n\nPersonalised workshops in our spacious on-site Yoga Shala offering a full range of Yoga options including Vinyasa, Hatha, Yin, Iyengar, Ashtanga or Restorative.\n\nWe can also organise Sound Healing, Breathwork and Meditation sessions - please ask when you book.\n\nPlease let us know if you would like us to provide light refreshments or meals for your group\n\nAvailable for classes of 4 to 10 people. Please book 2 days ahead if possible.\n\nRead more\n1 hr.\nRp350000\n4\nSelect\nPainting Workshop - 2hrs - Rp300,000 per person (Kids Half Price!)\n\nPainting workshops for all ages - learn to make traditional, Contemporary, Abstract or even Graffiti Art with local artists ! \n\nJoin our local experienced artists to create your own painting. Choose to paint a still life or landscape using traditional Batuan techniques or create an abstract Contemporary ma",
+  "category5": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nFun\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nFarm Tour & Feed the Animals - 1hr - Rp150,000 per person\n\nJoin our fast and friendly 1 hour Farm Tour.\n\nWe are just 5km north of Ubud on the right hand side as you are driving to Tegallalang Rice Paddies !\n\nMeet our Furry Friends - get to know Susu & Taksu our family cows, Happy & Lily the Farm cats, Adam & Eve our ducks and our assorted family of chickens, turtles and fish\nRice Paddy & Jungle walk - guided walk through our local rice paddies & jungle - lots of Insta opportunities !\n\n\n\nTour includes ;\n\nRefreshing Welcome: Organic Fruit Juice\nMeet our animals and help us feed them !\nRice Paddy & Jungle walk\nLearn about Balinese culture and legends\nDiscover the differences between chemical and organic farming\n\n\n\n\nAvailable for groups of 2 - 10 people. Please book 1 day ahead if possible !\n\nSneak Preview here :  \n\nhttps://www.instagram.com/ubud.permaculture/reel/DRmP_3yDxvk/\n\n\n\n\n\n\n\nRead more\n1 hr.\nRp150000\n2\nSelect\nSUNSET BBQ & MARSHMALLOWS ! - 2hrs - Rp300,000 per person (Kids Half Price !)\n\nSunset BBQ (organic chicken, vegetarian and vegan options available !). Perfect for kids and adults alike ! \n\nWatch the sunset over the jungle and listen as the night creatures come to life ! Listen to ancient Balinese wisdom (and some ghost stories !) while sitting around our firepit hidden in a jungle clearing !\n\nRoast your own marshmallows !\n\nWhat's included :\n\nRefreshing Welc",
+  "category6": "Ubud Permaculture\nShow on map\nBook Now\nCategory\nCooking & Food\nService\nProvider\nTime\nClient\nOur time: 21:23 Asia/Singapore\nOrganic / Regenerative Farming Permaculture Workshop - 4hrs - Rp500,000 per person\n\nIdeal for those planning an organic garden or farm back home !\n\nJoin us for a Hands-On Organic Garden Experience.\n\nLearn the secrets of organic growing using Permaculture techniques. Deep dive into Composting recipes, how to make your own organic pesticides and fertilisers, and the essentials of Permaculture Design.\nGet your hands in the earth and discover the rhythm of local farm life!\n\n\nWhat's included :\n\n\nRefreshing Welcome: Organic Fruit Juice\nExplore the Farm: Learn Permaculture Design\nFeed the Animals !\nDeep Dive into Permaculture in action\nRice Paddy & Jungle Walk: A Journey Through Tradition\nDelicious 100% organic Balinese Meal\n\n\n\n\nSneak Preview here : https://www.instagram.com/p/DQdg16bjzyi/\n\nIncludes 100% organic Balinese meal + Permaculture Ambassador Certificate !\n\nWe are a locally run family organic farm using Permaculture techniques hidden in the jungle just 5km north of Ubud Bali ! We started Ubud Permaculture Community on our family land during COVID as we all lost our jobs in tourism. Get to meet our little family of ducks, cows, chickens, cats and the occasional monkey !\n\n\n\nA Refreshing Welcome: Organic Fruit Juice\nYour adventure begins with a warm Balinese welcome and a refreshing glass of organic fruit juice. Sourced from local farms, this delightful be"
+ }
+}

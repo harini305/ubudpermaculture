@@ -1,0 +1,242 @@
+.dateNotice {
+  margin-top: clamp(16px, 2vw, 24px);
+}
+
+.dateNotice p {
+  max-width: 52rem;
+}
+
+.text {
+  max-width: 42rem;
+}
+
+.text h2 {
+  margin-bottom: 1rem;
+}
+
+.text li::marker {
+  color: var(--green);
+}
+
+.subhead {
+  margin: 1.75rem 0 0.75rem;
+}
+
+.h2gap {
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.flyer {
+  overflow: hidden;
+}
+
+.flyer img {
+  width: 100%;
+}
+
+/* curriculum */
+
+.curriculum {
+  display: grid;
+  gap: 40px 64px;
+}
+
+.modules {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: none;
+}
+
+.modules li {
+  margin: 0;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.modules li:first-child {
+  border-top: 2px solid var(--green-ink);
+}
+
+.modules h3 {
+  font-size: 1.1875rem;
+  margin-bottom: 4px;
+}
+
+.modules p {
+  font-size: 0.9375rem;
+  color: var(--text-2);
+}
+
+@media (min-width: 960px) {
+  .curriculum {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+/* facilitators */
+
+.people {
+  display: grid;
+  gap: 48px;
+}
+
+.person {
+  display: grid;
+  gap: 20px;
+  align-items: start;
+}
+
+.portrait {
+  width: 160px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--paper-2);
+}
+
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.role {
+  margin: 2px 0 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.person p {
+  font-size: 0.9688rem;
+}
+
+@media (min-width: 640px) {
+  .person {
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 28px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .people {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+}
+
+/* schedule */
+
+.scheduleWrap {
+  display: grid;
+  gap: 32px 64px;
+}
+
+.scheduleWrap > div {
+  min-width: 0;
+}
+
+@media (min-width: 960px) {
+  .scheduleWrap {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+  .scheduleWrap > div:last-child .subhead {
+    margin-top: 0.4rem;
+  }
+}
+
+.tableScroll {
+  overflow-x: auto;
+  margin-bottom: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  background: var(--surface);
+}
+
+.table th,
+.table td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.table thead th {
+  background: var(--green-deep);
+  color: var(--on-dark);
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+
+.table tbody th {
+  font-weight: 600;
+  color: var(--green-ink);
+}
+
+.table td {
+  white-space: nowrap;
+}
+
+@media (max-width: 360px) {
+  .table th,
+  .table td {
+    padding: 9px 8px;
+  }
+}
+
+/* accommodation */
+
+.stayPhotos {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 10px;
+  align-items: end;
+}
+
+.stayPhotos img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.stayPhotos img:last-child {
+  aspect-ratio: 3 / 4;
+}
+
+.faqs {
+  max-width: 52rem;
+}
+
+/* fee box */
+
+.fee {
+  background: var(--surface);
+  border-top: 3px solid var(--green);
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.fee h3 {
+  font-size: 1.125rem;
+}
+
+.feeAmount {
+  margin: 6px 0 0;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--green);
+  line-height: 1.1;
+}
+
+.fee h4 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.fee ul {
+  font-size: 0.9375rem;
+}

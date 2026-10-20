@@ -1,0 +1,101 @@
+.intro {
+  max-width: 42rem;
+}
+
+.intro h2 {
+  margin-bottom: 1rem;
+}
+
+.intro ul {
+  margin-top: 0.5rem;
+}
+
+.intro li::marker {
+  color: var(--green);
+}
+
+.asideCta {
+  margin-top: 16px;
+}
+
+.asideCta :global(.btn) {
+  width: 100%;
+}
+
+.asideNote {
+  margin-top: 8px;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+  text-align: center;
+}
+
+.asideNotice {
+  margin-top: 16px;
+}
+
+.stepsTitle {
+  margin-bottom: clamp(20px, 2.4vw, 28px);
+}
+
+.moreTitle {
+  font-size: var(--fs-h3);
+  margin-bottom: 24px;
+}
+
+.others {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+
+.others li + li {
+  margin-top: 0;
+}
+
+.other {
+  display: grid;
+  gap: 6px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.otherPhoto {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.otherPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.other:hover .otherPhoto img {
+  transform: scale(1.035);
+}
+
+.otherTitle {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.3;
+  color: var(--green-ink);
+}
+
+.other:hover .otherTitle {
+  color: var(--green);
+}
+
+.otherFacts {
+  font-size: 0.875rem;
+  color: var(--text-2);
+}
+
+@media (min-width: 760px) {
+  .others {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

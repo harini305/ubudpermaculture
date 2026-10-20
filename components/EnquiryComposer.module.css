@@ -1,0 +1,62 @@
+.form {
+  display: grid;
+  gap: 16px;
+  background: var(--surface);
+  padding: clamp(20px, 3vw, 32px);
+  border-top: 3px solid var(--green);
+}
+
+.row {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 560px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.field label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--green-ink);
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid var(--olive);
+  outline-offset: 1px;
+  border-color: var(--green);
+}
+
+.note {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--text-2);
+}

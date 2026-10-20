@@ -1,0 +1,136 @@
+.section {
+  overflow: hidden;
+}
+
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.head h2 {
+  max-width: 22ch;
+}
+
+.controls {
+  display: none;
+  gap: 8px;
+  flex: none;
+}
+
+.ctrl {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.ctrl:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.track {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 18px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(82%, 400px);
+  gap: 32px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(247, 243, 234, 0.35) transparent;
+  align-items: start;
+}
+
+.track:focus-visible {
+  outline-offset: 6px;
+}
+
+.card {
+  scroll-snap-align: start;
+  margin: 0;
+  padding-left: 24px;
+  border-left: 1px solid rgba(247, 243, 234, 0.25);
+}
+
+.card + .card {
+  margin-top: 0;
+}
+
+.card figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card blockquote p {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.55;
+  color: var(--on-dark);
+}
+
+.clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.more {
+  align-self: flex-start;
+  margin-top: 6px;
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.card figcaption {
+  padding-top: 12px;
+  font-size: 0.875rem;
+}
+
+.name {
+  font-weight: 600;
+  color: var(--on-dark);
+}
+
+:global(.section--sand) .card {
+  border-left-color: var(--line-strong);
+}
+
+:global(.section--sand) .card blockquote p,
+:global(.section--sand) .name {
+  color: var(--green-ink);
+}
+
+:global(.section--sand) .track {
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+@media (min-width: 760px) {
+  .controls {
+    display: flex;
+  }
+}

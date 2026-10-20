@@ -1,0 +1,106 @@
+.intro {
+  max-width: 42rem;
+}
+
+.intro h2 {
+  margin-bottom: 1rem;
+}
+
+.subhead {
+  margin: 2rem 0 0.75rem;
+}
+
+.whatson li::marker {
+  color: var(--green);
+}
+
+.facts {
+  margin-top: 16px;
+}
+
+.insta {
+  margin-top: 16px;
+  font-size: 0.9375rem;
+}
+
+.lineupTitle {
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.lineup {
+  display: grid;
+  gap: 32px 64px;
+}
+
+.lineup h3 {
+  margin-bottom: 0.5rem;
+}
+
+.lineup p {
+  margin-bottom: 1.75rem;
+}
+
+.live {
+  margin: 0;
+  border-top: 2px solid var(--green-ink);
+}
+
+.live div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9375rem;
+}
+
+.live dt {
+  color: var(--text-2);
+}
+
+.live dd {
+  margin: 0;
+  color: var(--green-ink);
+  font-weight: 600;
+}
+
+.posters {
+  margin-top: clamp(20px, 2.6vw, 32px);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 760px;
+}
+
+.posters figure {
+  margin: 0;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  background: var(--paper-2);
+}
+
+.posters img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videos {
+  display: grid;
+  gap: 28px 24px;
+}
+
+@media (min-width: 700px) {
+  .videos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .lineup {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  }
+  .videos {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

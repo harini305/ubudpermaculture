@@ -1,0 +1,293 @@
+.h2 {
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+/* opening: text panel beside the family photograph */
+
+.opening {
+  background: var(--paper-2);
+  padding-top: calc(var(--header-h) + clamp(20px, 3vw, 40px));
+}
+
+.openingGrid {
+  display: grid;
+  gap: 24px;
+  align-items: end;
+}
+
+.openingText {
+  padding-bottom: clamp(20px, 3vw, 40px);
+}
+
+.openingText h1 {
+  max-width: 14ch;
+  margin-bottom: 1rem;
+}
+
+.openingPhoto {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  margin-bottom: -1px;
+}
+
+.openingPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 960px) {
+  .openingGrid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 56px;
+  }
+  .openingPhoto {
+    aspect-ratio: 16 / 11;
+  }
+}
+
+/* story as a short letter */
+
+.story {
+  display: grid;
+  gap: 24px 64px;
+  align-items: end;
+}
+
+.letter {
+  max-width: 44rem;
+}
+
+.letterOpen {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.25rem);
+  line-height: 1.25;
+  color: var(--green-ink);
+}
+
+.letter p:not(.letterOpen):not(.sign) {
+  font-size: var(--fs-lead);
+}
+
+.sign {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--green);
+}
+
+.storyAside {
+  font-size: 0.9375rem;
+  border-left: 3px solid var(--olive);
+  padding-left: 18px;
+}
+
+@media (min-width: 960px) {
+  .story {
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  }
+}
+
+/* horizontal strip of portraits */
+
+.family {
+  padding-bottom: var(--section);
+}
+
+.portraits {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--gutter) 12px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(62vw, 260px);
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+.portraits li {
+  margin: 0;
+  scroll-snap-align: start;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--paper-2);
+}
+
+.portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1340px) {
+  .portraits {
+    padding-left: calc((100vw - var(--container)) / 2);
+  }
+}
+
+/* Nyoman */
+
+.nyoman {
+  background: var(--green-deep);
+  color: var(--on-dark-2);
+  padding-block: var(--section);
+}
+
+.nyomanGrid {
+  display: grid;
+  gap: 28px 64px;
+  align-items: center;
+}
+
+.nyomanPhoto > div {
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  max-height: 640px;
+}
+
+.nyomanPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nyomanText h2 {
+  color: var(--on-dark);
+  margin-bottom: 1rem;
+}
+
+.nyomanText :global(.btn) {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 900px) {
+  .nyomanGrid {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+}
+
+/* animals */
+
+.animalsHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0 24px;
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.animalsHead .h2 {
+  margin-bottom: 0;
+}
+
+.animals {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+
+.animals li {
+  margin: 0;
+}
+
+.animalPhoto {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50% 50% 4px 4px;
+  margin-bottom: 14px;
+}
+
+.animalPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.animals h3 {
+  margin-bottom: 2px;
+}
+
+.animals p {
+  color: var(--text-2);
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 639px) {
+  .animals {
+    gap: 14px;
+  }
+  .animals li {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    align-items: center;
+  }
+  .animalPhoto {
+    grid-row: span 2;
+    margin-bottom: 0;
+    border-radius: 50%;
+  }
+  .animals h3 {
+    align-self: end;
+  }
+  .animals p {
+    align-self: start;
+  }
+}
+
+@media (min-width: 640px) {
+  .animals {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* village mosaic */
+
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: clamp(140px, 20vw, 240px);
+  gap: 8px;
+}
+
+.mosaic > div {
+  overflow: hidden;
+}
+
+.mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mA {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media (min-width: 900px) {
+  .mosaic {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .mB {
+    grid-row: span 2;
+  }
+  .mE {
+    grid-column: span 2;
+  }
+}
+
+.next {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 32px;
+  margin-top: 20px;
+}

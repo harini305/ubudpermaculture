@@ -1,0 +1,217 @@
+.h2 {
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.intro {
+  display: grid;
+  gap: 20px 64px;
+  align-items: start;
+}
+
+.statement {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.375rem, 1.15rem + 0.9vw, 1.875rem);
+  line-height: 1.35;
+  color: var(--green-ink);
+}
+
+@media (min-width: 900px) {
+  .intro {
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  }
+}
+
+/* options */
+
+.options {
+  display: grid;
+  gap: 24px;
+}
+
+.option {
+  display: grid;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.optionPhoto {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.optionPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.optionBody {
+  padding: clamp(20px, 2.6vw, 28px);
+}
+
+.optionBody h3 {
+  font-size: var(--fs-h2);
+  margin-bottom: 6px;
+}
+
+.ticks {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 18px;
+  font-size: 0.9375rem;
+}
+
+.ticks li {
+  position: relative;
+  padding-left: 24px;
+}
+
+.ticks li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.45em;
+  width: 10px;
+  height: 6px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 800px) {
+  .options {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* villas */
+
+.villas {
+  display: grid;
+  gap: 28px 64px;
+  align-items: center;
+}
+
+.villaText {
+  max-width: 40rem;
+}
+
+.villaPhotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: end;
+}
+
+.villaPhotos > div {
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+}
+
+.villaPhotos .vpTall {
+  aspect-ratio: 9 / 16;
+}
+
+.villaPhotos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .villas {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+}
+
+/* image band */
+
+.band {
+  position: relative;
+  min-height: clamp(360px, 56vw, 560px);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  color: #fff;
+}
+
+.band > picture > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bandShade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(14, 26, 17, 0.82), rgba(14, 26, 17, 0.1) 70%);
+}
+
+.bandText {
+  position: relative;
+  padding-block: clamp(28px, 4vw, 52px);
+}
+
+.bandText p {
+  max-width: 44rem;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
+  line-height: 1.45;
+}
+
+/* while you are here */
+
+.whileList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  border-top: 2px solid var(--green-ink);
+}
+
+.whileList li {
+  margin: 0;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.whileList a {
+  display: grid;
+  gap: 2px;
+  padding: 16px 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.whileList strong {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--green-ink);
+}
+
+.whileList a:hover strong {
+  color: var(--green);
+}
+
+.whileList span {
+  font-size: 0.9375rem;
+  color: var(--text-2);
+}
+
+@media (min-width: 900px) {
+  .whileList {
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 0;
+  }
+  .whileList li {
+    border-bottom: 0;
+    border-top: 2px solid var(--green-ink);
+  }
+  .whileList li + li {
+    margin-left: 28px;
+  }
+}

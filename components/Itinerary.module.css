@@ -1,0 +1,119 @@
+.path {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.path::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: repeating-linear-gradient(to bottom, var(--green-mid) 0 8px, transparent 8px 14px);
+  opacity: 0.6;
+}
+
+.step {
+  position: relative;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.step + .step {
+  margin-top: clamp(20px, 2.6vw, 32px);
+}
+
+.step::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 3px solid var(--green);
+}
+
+.text h3 {
+  margin-bottom: 0.6rem;
+}
+
+.text {
+  max-width: 36rem;
+}
+
+.text ul {
+  margin-top: 0.5rem;
+}
+
+.photo {
+  margin-top: 20px;
+}
+
+.photo > div {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .path::before {
+    left: 50%;
+    transform: translateX(-1px);
+  }
+
+  .step {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 88px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .step::before {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.4em;
+  }
+
+  .withImage::before {
+    top: 50%;
+    margin-top: -8px;
+  }
+
+  .text {
+    grid-column: 1;
+    justify-self: end;
+    text-align: left;
+  }
+
+  .step:not(.withImage) .text {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .photo {
+    grid-column: 2;
+    margin-top: 0;
+  }
+
+  .flip .text {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .flip .photo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}

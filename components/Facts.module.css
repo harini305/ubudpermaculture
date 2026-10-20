@@ -1,0 +1,46 @@
+.wrap {
+  background: var(--surface);
+  border-top: 3px solid var(--green);
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.list {
+  margin: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 38%) 1fr;
+  gap: 4px 16px;
+  padding-block: 11px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.row dt {
+  color: var(--text-2);
+}
+
+.row dd {
+  margin: 0;
+  color: var(--green-ink);
+  font-weight: 600;
+  min-width: 0;
+}
+
+@media (max-width: 380px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

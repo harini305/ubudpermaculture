@@ -1,0 +1,3 @@
+# Only the site is deployed. Audit documents and asset build scripts stay out of the upload.
+docs/
+scripts/

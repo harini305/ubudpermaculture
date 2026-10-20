@@ -1,0 +1,64 @@
+{
+ "captured": "2026-10-19",
+ "name": "Ubud Permaculture",
+ "also_known_as": [
+  "Ubud Permaculture Community"
+ ],
+ "phone_whatsapp": {
+  "value": "+6282266994463",
+  "href": "https://wa.me/6282266994463",
+  "source": "footer + Click-to-Chat widget config"
+ },
+ "email": {
+  "value": "ubudpermaculture@pm.me",
+  "source": "footer; SimplyBook LocalBusiness"
+ },
+ "address_verbatim": {
+  "value": "Ubud Permaculture, Jl sukaluwih, Gentong, Tegallalang, Tegallalang, ID, 80561",
+  "source": "footer"
+ },
+ "geo": {
+  "lat": -8.4850955,
+  "lng": 115.2818077,
+  "source": "Google Maps place resolved from maps.app.goo.gl/PuRAqkHBQwfDNKh16"
+ },
+ "maps_links": {
+  "farm": [
+   "https://maps.app.goo.gl/PuRAqkHBQwfDNKh16",
+   "https://maps.app.goo.gl/4ZwiE4DDzJYf4ELC7"
+  ],
+  "temple_pura_dalem_gentong": "https://maps.app.goo.gl/eBMe9WTM7QtzeJgw6",
+  "footer_search": "https://www.google.com/maps/search/?api=1&query=Ubud%20Permaculture,%20Jl%20sukaluwih,%20Gentong,%20Tegallalang,%20Tegallalang,%20ID,%2080561"
+ },
+ "booking": "https://ubudpermaculture.simplybook.asia/v2/",
+ "social": {
+  "instagram": "https://www.instagram.com/ubud.permaculture/",
+  "odysee": "https://odysee.com/@GentongFarmers:f",
+  "wwoof": "https://wwoofindependents.org/en/host/56063"
+ },
+ "sister_business": {
+  "name": "Sudamala Villas",
+  "url": "https://sudamala.com/"
+ },
+ "other_phones_seen": {
+  "SimplyBook LocalBusiness telephone values (unverified purpose)": [
+   "+62 853-3728-4626",
+   "+6281239947399",
+   "+6282266499328",
+   "+6285337284626"
+  ],
+  "Art In The Jungle stalls (Fajar)": "+62 853-3829-9226",
+  "Retreat facilitator Jonathan Semo": "+66 80 9988 292 / jonsemo@gmail.com"
+ },
+ "people": {
+  "Wayan": "runs the community with brother Nyoman; temples tour guide",
+  "Nyoman (Nyoman Gunawan)": "farm guide, Permaculture Designer, in charge of volunteers",
+  "Jonathan Semo": "retreat facilitator, Organix Asia",
+  "Fajar": "market stall contact"
+ },
+ "analytics": {
+  "google_tag": "GT-TQT5LND3",
+  "jetpack_stats": true
+ },
+ "footer_credit": "© 2026 ubudpermaculture.com. A website by SuryaNirmala (http://suryanirmala.com)"
+}
